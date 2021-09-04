@@ -1,0 +1,57 @@
+body {
+    background-color: #39A6A3;
+}
+
+    .cabecera {
+        background-color: #DEEEEA;
+        width: 85%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        padding:0 5%;
+        border-radius: 25px;
+        height: 5em;    
+    }
+
+        .cabecera .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+            .cabecera .logo a img {
+                width: 100%;
+                max-width: 80px;
+                min-width: 50px;
+                max-height: 80px;
+            }
+
+        .cabecera .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 460px;
+        }
+
+            .navbar a {
+                display: flex;
+                align-items: center;
+                font-size: .9em;
+                color: #231E23;
+                font-weight: 700;
+                text-decoration: none;
+                letter-spacing: 1.5px;
+                padding: 2%;
+            }
+
+            .navbar a:hover {
+                background-color: #39A6A3;
+                transition: .4s;
+                border-radius: 15px;
+                color: #DEEEEA;
+            }
+
+
+
+
