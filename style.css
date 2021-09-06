@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,400;0,700;0,800;0,900;1,600;1,700&display=swap');
+
 body {
     background-color: #39A6A3;
 }
@@ -22,24 +24,25 @@ body {
 
             .cabecera .logo a img {
                 width: 100%;
-                max-width: 80px;
+                max-width: 100px;
                 min-width: 50px;
-                max-height: 80px;
+                max-height: 100%;
             }
 
         .cabecera .navbar {
             display: flex;
             align-items: center;
             justify-content: space-between;
-            width: 460px;
+            width: 500px;
         }
 
             .navbar a {
                 display: flex;
                 align-items: center;
-                font-size: .9em;
+                font-family: 'Urbanist', sans-serif;
+                font-size: 1em;
                 color: #231E23;
-                font-weight: 700;
+                font-weight: 900;
                 text-decoration: none;
                 letter-spacing: 1.5px;
                 padding: 2%;
